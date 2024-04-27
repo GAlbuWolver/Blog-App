@@ -19,7 +19,6 @@ class BlogItem {
     };
   }
 
-  // Extract a BlogItem from a Map. This is useful for querying database rows and
   // building a BlogItem from each row.
   factory BlogItem.fromMap(Map<String, dynamic> map) {
     return BlogItem(
